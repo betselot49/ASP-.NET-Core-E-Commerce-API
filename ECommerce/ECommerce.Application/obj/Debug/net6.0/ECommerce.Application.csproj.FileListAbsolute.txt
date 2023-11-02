@@ -1,0 +1,15 @@
+C:\Projects\.NET ECommerce.API\ECommerce\ECommerce.Application\bin\Debug\net6.0\ECommerce.Application.deps.json
+C:\Projects\.NET ECommerce.API\ECommerce\ECommerce.Application\bin\Debug\net6.0\ECommerce.Application.dll
+C:\Projects\.NET ECommerce.API\ECommerce\ECommerce.Application\bin\Debug\net6.0\ECommerce.Application.pdb
+C:\Projects\.NET ECommerce.API\ECommerce\ECommerce.Application\bin\Debug\net6.0\ECommerce.Domain.dll
+C:\Projects\.NET ECommerce.API\ECommerce\ECommerce.Application\bin\Debug\net6.0\ECommerce.Domain.pdb
+C:\Projects\.NET ECommerce.API\ECommerce\ECommerce.Application\obj\Debug\net6.0\ECommerce.Application.csproj.AssemblyReference.cache
+C:\Projects\.NET ECommerce.API\ECommerce\ECommerce.Application\obj\Debug\net6.0\ECommerce.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\.NET ECommerce.API\ECommerce\ECommerce.Application\obj\Debug\net6.0\ECommerce.Application.AssemblyInfoInputs.cache
+C:\Projects\.NET ECommerce.API\ECommerce\ECommerce.Application\obj\Debug\net6.0\ECommerce.Application.AssemblyInfo.cs
+C:\Projects\.NET ECommerce.API\ECommerce\ECommerce.Application\obj\Debug\net6.0\ECommerce.Application.csproj.CoreCompileInputs.cache
+C:\Projects\.NET ECommerce.API\ECommerce\ECommerce.Application\obj\Debug\net6.0\ECommerce.Application.csproj.CopyComplete
+C:\Projects\.NET ECommerce.API\ECommerce\ECommerce.Application\obj\Debug\net6.0\ECommerce.Application.dll
+C:\Projects\.NET ECommerce.API\ECommerce\ECommerce.Application\obj\Debug\net6.0\refint\ECommerce.Application.dll
+C:\Projects\.NET ECommerce.API\ECommerce\ECommerce.Application\obj\Debug\net6.0\ECommerce.Application.pdb
+C:\Projects\.NET ECommerce.API\ECommerce\ECommerce.Application\obj\Debug\net6.0\ref\ECommerce.Application.dll
