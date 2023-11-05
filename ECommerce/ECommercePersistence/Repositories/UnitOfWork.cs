@@ -14,6 +14,7 @@ namespace ECommercePersistence.Repositories
         private readonly ECommerceDbContext _context;
         private readonly IHttpContextAccessor _httpContextAccessor;
         private IProductRepositiry _productRepository;
+        private ICategoryRepository _categoryRepository;
 
         public UnitOfWork(ECommerceDbContext context, IHttpContextAccessor httpContextAccessor)
         {
@@ -24,6 +25,10 @@ namespace ECommercePersistence.Repositories
 
         public IProductRepositiry ProductRepository => 
             _productRepository ??= new ProductsRepository(_context);
+
+        public ICategoryRepository CategoryRepository => 
+            _categoryRepository ??= new CategoryRepositiry(_context);
+
 
         public void Dispose()
         {

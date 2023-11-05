@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7YKQKPN03qg+W2DBYdTyKLpyLQcGlUDZSzuOBDzEHtFtO9HTK7VQMMmd0fraHxatZ83C/kCUU6Ah9fx6elgtlQ==",
+  "dgSpecHash": "J/NlQk79FCQ9HudAS4ye8QfH0nWFuq/qLLavTypNjGrxFJnAW+nqyYLbwftuVkcT/WAw64k94plKLgdQzFv5rA==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\.NET ECommerce.API\\ECommerce\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj",
+  "projectFilePath": "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

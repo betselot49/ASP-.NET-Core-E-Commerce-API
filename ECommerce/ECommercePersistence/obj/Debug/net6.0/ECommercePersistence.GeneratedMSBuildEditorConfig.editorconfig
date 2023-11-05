@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ECommercePersistence
-build_property.ProjectDir = C:\Projects\.NET ECommerce.API\ECommerce\ECommercePersistence\
+build_property.ProjectDir = C:\Projects\.NET ECommerce.API\ASP-.NET-Core-E-Commerce-API\ECommerce\ECommercePersistence\

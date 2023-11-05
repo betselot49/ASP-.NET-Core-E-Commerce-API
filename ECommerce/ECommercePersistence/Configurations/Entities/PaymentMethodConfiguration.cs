@@ -28,9 +28,6 @@ namespace ECommercePersistence.Configurations.Entities
             builder.Property(pm => pm.PaymentMethodDetails)
                    .HasMaxLength(500); // Adjust the maximum length as needed
 
-            builder.HasOne(pm => pm.User)
-                   .WithMany(u => u.PaymentMethods)
-                   .HasForeignKey(pm => pm.UserId);
         }
     }
 }

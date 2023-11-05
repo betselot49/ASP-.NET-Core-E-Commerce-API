@@ -1,4 +1,6 @@
 ﻿using ECommerce.Domain.Common;
+using ECommerce.Identity.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace ECommercePersistence;
 
-public class AuditableDbContext : DbContext
+public class AuditableDbContext : IdentityDbContext<ApplicationUser>
 {
     public AuditableDbContext(DbContextOptions options) : base(options) { }
 
@@ -16,7 +18,9 @@ public class AuditableDbContext : DbContext
     {
         foreach (var entity in base.ChangeTracker.Entries<BaseDomainEntity>()
             .Where(q => q.State == EntityState.Added || q.State == EntityState.Modified))
+
         {
+            Console.WriteLine($" ============>  usernmae => {username}");
             entity.Entity.LastModifiedDate = DateTime.Now;
             entity.Entity.LastModifiedBy = username;
 

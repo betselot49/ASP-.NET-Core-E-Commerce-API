@@ -14,7 +14,7 @@ public class ExceptionMiddleware
         _next = next;
     }
 
-    public async Task InvoceAsync(HttpContext httpContext)
+    public async Task InvokeAsync(HttpContext httpContext)
     {
         try
         {

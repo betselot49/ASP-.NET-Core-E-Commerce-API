@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\.NET ECommerce.API\\ECommerce\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj": {}
+    "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\.NET ECommerce.API\\ECommerce\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj": {
+    "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\.NET ECommerce.API\\ECommerce\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj",
         "projectName": "ECommerce.Infrastructure",
-        "projectPath": "C:\\Projects\\.NET ECommerce.API\\ECommerce\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj",
+        "projectPath": "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\betse\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\.NET ECommerce.API\\ECommerce\\ECommerce.Infrastructure\\obj\\",
+        "outputPath": "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommerce.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

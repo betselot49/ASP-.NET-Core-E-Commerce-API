@@ -9,6 +9,7 @@ namespace ECommerce.Application.Contracts.Persistency
     public interface IUnitOfWork : IDisposable
     {
         IProductRepositiry ProductRepository { get; }
+        ICategoryRepository CategoryRepository { get; }
         Task Save();
     }
 }

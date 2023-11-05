@@ -1,6 +1,7 @@
 ﻿using ECommerce.Domain.Common;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,5 +18,4 @@ public class Reviews : BaseDomainEntity
 
     // Navigation properties
     public virtual Products? Product { get; set; }
-    public virtual Users? User { get; set; }
 }

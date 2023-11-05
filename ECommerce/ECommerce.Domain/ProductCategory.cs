@@ -14,5 +14,5 @@ public class ProductCategory : BaseDomainEntity
 
     // Navigation properties
     public virtual Products? Product { get; set; }
-    public virtual Category? Category { get; set; }
+    public virtual Categories? Category { get; set; }
 }

@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace ECommerce.Domain;
 
-public class Category : BaseDomainEntity
+public class Categories : BaseDomainEntity
 {
-    public Category() 
+    public Categories() 
     {
         Products = new HashSet<Products>();
         ProductCategories = new HashSet<ProductCategory>();

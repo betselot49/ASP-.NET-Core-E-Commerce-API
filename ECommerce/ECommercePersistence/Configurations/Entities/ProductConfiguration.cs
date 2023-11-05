@@ -32,7 +32,6 @@ public class ProductConfiguration : IEntityTypeConfiguration<Products>
         builder.Property(p => p.Images)
               .HasMaxLength(1000);
 
-
         builder.HasMany(p => p.ProductCategories)
                .WithOne(pc => pc.Product)
                .HasForeignKey(pc => pc.ProductId);

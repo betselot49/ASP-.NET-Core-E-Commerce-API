@@ -28,7 +28,7 @@ public class Products : BaseDomainEntity
     public int CategoryId { get; set; }
 
     // Navigation Property
-    public virtual Category? Category { get; set; }  
+    public virtual Categories? Category { get; set; }  
     public virtual ICollection<ProductCategory> ProductCategories { get;}
     public virtual ICollection<OrderItem> OrderItems { get; set; }
     public virtual ICollection<Reviews> Reviews { get; set; }

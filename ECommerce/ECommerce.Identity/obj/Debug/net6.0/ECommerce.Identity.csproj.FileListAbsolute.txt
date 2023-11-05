@@ -1,0 +1,17 @@
+C:\Projects\.NET ECommerce.API\ASP-.NET-Core-E-Commerce-API\ECommerce\ECommerce.Identity\bin\Debug\net6.0\ECommerce.Identity.deps.json
+C:\Projects\.NET ECommerce.API\ASP-.NET-Core-E-Commerce-API\ECommerce\ECommerce.Identity\bin\Debug\net6.0\ECommerce.Identity.dll
+C:\Projects\.NET ECommerce.API\ASP-.NET-Core-E-Commerce-API\ECommerce\ECommerce.Identity\bin\Debug\net6.0\ECommerce.Identity.pdb
+C:\Projects\.NET ECommerce.API\ASP-.NET-Core-E-Commerce-API\ECommerce\ECommerce.Identity\obj\Debug\net6.0\ECommerce.Identity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\.NET ECommerce.API\ASP-.NET-Core-E-Commerce-API\ECommerce\ECommerce.Identity\obj\Debug\net6.0\ECommerce.Identity.AssemblyInfoInputs.cache
+C:\Projects\.NET ECommerce.API\ASP-.NET-Core-E-Commerce-API\ECommerce\ECommerce.Identity\obj\Debug\net6.0\ECommerce.Identity.AssemblyInfo.cs
+C:\Projects\.NET ECommerce.API\ASP-.NET-Core-E-Commerce-API\ECommerce\ECommerce.Identity\obj\Debug\net6.0\ECommerce.Identity.csproj.CoreCompileInputs.cache
+C:\Projects\.NET ECommerce.API\ASP-.NET-Core-E-Commerce-API\ECommerce\ECommerce.Identity\obj\Debug\net6.0\ECommerce.Identity.dll
+C:\Projects\.NET ECommerce.API\ASP-.NET-Core-E-Commerce-API\ECommerce\ECommerce.Identity\obj\Debug\net6.0\refint\ECommerce.Identity.dll
+C:\Projects\.NET ECommerce.API\ASP-.NET-Core-E-Commerce-API\ECommerce\ECommerce.Identity\obj\Debug\net6.0\ECommerce.Identity.pdb
+C:\Projects\.NET ECommerce.API\ASP-.NET-Core-E-Commerce-API\ECommerce\ECommerce.Identity\obj\Debug\net6.0\ref\ECommerce.Identity.dll
+C:\Projects\.NET ECommerce.API\ASP-.NET-Core-E-Commerce-API\ECommerce\ECommerce.Identity\bin\Debug\net6.0\ECommerce.Application.dll
+C:\Projects\.NET ECommerce.API\ASP-.NET-Core-E-Commerce-API\ECommerce\ECommerce.Identity\bin\Debug\net6.0\ECommerce.Domain.dll
+C:\Projects\.NET ECommerce.API\ASP-.NET-Core-E-Commerce-API\ECommerce\ECommerce.Identity\bin\Debug\net6.0\ECommerce.Application.pdb
+C:\Projects\.NET ECommerce.API\ASP-.NET-Core-E-Commerce-API\ECommerce\ECommerce.Identity\bin\Debug\net6.0\ECommerce.Domain.pdb
+C:\Projects\.NET ECommerce.API\ASP-.NET-Core-E-Commerce-API\ECommerce\ECommerce.Identity\obj\Debug\net6.0\ECommerce.Identity.csproj.AssemblyReference.cache
+C:\Projects\.NET ECommerce.API\ASP-.NET-Core-E-Commerce-API\ECommerce\ECommerce.Identity\obj\Debug\net6.0\ECommerce.Identity.csproj.CopyComplete

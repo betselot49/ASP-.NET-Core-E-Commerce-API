@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\.NET ECommerce.API\\ECommerce\\ECommercePersistence\\ECommercePersistence.csproj": {}
+    "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommercePersistence\\ECommercePersistence.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\.NET ECommerce.API\\ECommerce\\ECommerce.Application\\ECommerce.Application.csproj": {
+    "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommerce.Application\\ECommerce.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\.NET ECommerce.API\\ECommerce\\ECommerce.Application\\ECommerce.Application.csproj",
+        "projectUniqueName": "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommerce.Application\\ECommerce.Application.csproj",
         "projectName": "ECommerce.Application",
-        "projectPath": "C:\\Projects\\.NET ECommerce.API\\ECommerce\\ECommerce.Application\\ECommerce.Application.csproj",
+        "projectPath": "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommerce.Application\\ECommerce.Application.csproj",
         "packagesPath": "C:\\Users\\betse\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\.NET ECommerce.API\\ECommerce\\ECommerce.Application\\obj\\",
+        "outputPath": "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommerce.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projects\\.NET ECommerce.API\\ECommerce\\ECommerce.Domain\\ECommerce.Domain.csproj": {
-                "projectPath": "C:\\Projects\\.NET ECommerce.API\\ECommerce\\ECommerce.Domain\\ECommerce.Domain.csproj"
+              "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommerce.Domain\\ECommerce.Domain.csproj": {
+                "projectPath": "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommerce.Domain\\ECommerce.Domain.csproj"
               }
             }
           }
@@ -90,14 +90,14 @@
         }
       }
     },
-    "C:\\Projects\\.NET ECommerce.API\\ECommerce\\ECommerce.Domain\\ECommerce.Domain.csproj": {
+    "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommerce.Domain\\ECommerce.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\.NET ECommerce.API\\ECommerce\\ECommerce.Domain\\ECommerce.Domain.csproj",
+        "projectUniqueName": "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommerce.Domain\\ECommerce.Domain.csproj",
         "projectName": "ECommerce.Domain",
-        "projectPath": "C:\\Projects\\.NET ECommerce.API\\ECommerce\\ECommerce.Domain\\ECommerce.Domain.csproj",
+        "projectPath": "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommerce.Domain\\ECommerce.Domain.csproj",
         "packagesPath": "C:\\Users\\betse\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\.NET ECommerce.API\\ECommerce\\ECommerce.Domain\\obj\\",
+        "outputPath": "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommerce.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -150,14 +150,14 @@
         }
       }
     },
-    "C:\\Projects\\.NET ECommerce.API\\ECommerce\\ECommercePersistence\\ECommercePersistence.csproj": {
+    "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommerce.Identity\\ECommerce.Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\.NET ECommerce.API\\ECommerce\\ECommercePersistence\\ECommercePersistence.csproj",
-        "projectName": "ECommercePersistence",
-        "projectPath": "C:\\Projects\\.NET ECommerce.API\\ECommerce\\ECommercePersistence\\ECommercePersistence.csproj",
+        "projectUniqueName": "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommerce.Identity\\ECommerce.Identity.csproj",
+        "projectName": "ECommerce.Identity",
+        "projectPath": "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommerce.Identity\\ECommerce.Identity.csproj",
         "packagesPath": "C:\\Users\\betse\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\.NET ECommerce.API\\ECommerce\\ECommercePersistence\\obj\\",
+        "outputPath": "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommerce.Identity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -179,8 +179,93 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projects\\.NET ECommerce.API\\ECommerce\\ECommerce.Application\\ECommerce.Application.csproj": {
-                "projectPath": "C:\\Projects\\.NET ECommerce.API\\ECommerce\\ECommerce.Application\\ECommerce.Application.csproj"
+              "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommerce.Application\\ECommerce.Application.csproj": {
+                "projectPath": "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommerce.Application\\ECommerce.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.24, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.1.39, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.24, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommercePersistence\\ECommercePersistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommercePersistence\\ECommercePersistence.csproj",
+        "projectName": "ECommercePersistence",
+        "projectPath": "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommercePersistence\\ECommercePersistence.csproj",
+        "packagesPath": "C:\\Users\\betse\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommercePersistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\betse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommerce.Application\\ECommerce.Application.csproj": {
+                "projectPath": "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommerce.Application\\ECommerce.Application.csproj"
+              },
+              "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommerce.Identity\\ECommerce.Identity.csproj": {
+                "projectPath": "C:\\Projects\\.NET ECommerce.API\\ASP-.NET-Core-E-Commerce-API\\ECommerce\\ECommerce.Identity\\ECommerce.Identity.csproj"
               }
             }
           }

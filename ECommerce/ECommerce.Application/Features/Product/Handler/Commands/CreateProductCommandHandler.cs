@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using ECommerce.Application.Contracts.Persistency;
 using ECommerce.Application.DTOs.Product.Validators;
+using ECommerce.Application.Exceptions;
 using ECommerce.Application.Features.Product.Request.Commands;
 using ECommerce.Application.Responses;
 using ECommerce.Domain;
@@ -13,12 +14,12 @@ using System.Threading.Tasks;
 
 namespace ECommerce.Application.Features.Product.Handler.Commands
 {
-    public class CreateProductHandler : IRequestHandler<CreateProductCommand, BaseCommandResponse>
+    public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand, BaseCommandResponse>
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
 
-        public CreateProductHandler(IUnitOfWork unitOfWork, IMapper mapper)
+        public CreateProductCommandHandler(IUnitOfWork unitOfWork, IMapper mapper)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
@@ -39,6 +40,11 @@ namespace ECommerce.Application.Features.Product.Handler.Commands
 
             else
             {
+                var category = await _unitOfWork.CategoryRepository.Get(request.ProductDto.CategoryId);
+
+                if (category is null) 
+                    throw new NotFoundException(nameof(category), request.ProductDto.CategoryId); 
+
                 var product = _mapper.Map<Products>(request.ProductDto);
 
                 product = await _unitOfWork.ProductRepository.Add(product);

@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using ECommerce.Application.DTOs.Category;
 using ECommerce.Application.DTOs.Product;
 using ECommerce.Domain;
 using System;
@@ -17,6 +18,11 @@ namespace ECommerce.Application.Profiles
             CreateMap<Products, ProductsDto>().ReverseMap();
             CreateMap<Products, CreateProductDto>().ReverseMap();
             #endregion Product
+
+            #region Category Mapping
+            CreateMap<Categories, CategoryDto>().ReverseMap();
+            CreateMap<Categories, CreateCategoryDto>().ReverseMap();
+            #endregion Category
         }
     }
 }

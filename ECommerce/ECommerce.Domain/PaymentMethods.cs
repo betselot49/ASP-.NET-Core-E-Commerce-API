@@ -18,6 +18,5 @@ public class PaymentMethods : BaseDomainEntity
     public string? PaymentMethodType { get; set; }
     public string? PaymentMethodDetails { get; set; }
 
-    // Navigation properties
-    public virtual Users? User { get; set; }
+
 }

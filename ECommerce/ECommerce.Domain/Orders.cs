@@ -28,6 +28,5 @@ public class Orders : BaseDomainEntity
     public string? PaymentStatus { get; set; }
 
     // Navigation properties
-    public virtual Users? User { get; set; }
     public virtual ICollection<OrderItem>? OrderItems { get; set; }
 }

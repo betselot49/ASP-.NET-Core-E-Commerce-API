@@ -37,10 +37,6 @@ namespace ECommercePersistence.Configurations.Entities
             builder.Property(o => o.PaymentStatus)
                    .HasMaxLength(100); // Adjust the maximum length as needed
 
-            builder.HasOne(o => o.User)
-                   .WithMany(u => u.Orders)
-                   .HasForeignKey(o => o.UserId);
-
             builder.HasMany(o => o.OrderItems)
                    .WithOne(oi => oi.Order)
                    .HasForeignKey(oi => oi.OrderId);

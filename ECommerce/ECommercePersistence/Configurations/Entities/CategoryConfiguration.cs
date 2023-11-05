@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace ECommercePersistence.Configurations.Entities
 {
-    public class CategoryConfiguration : IEntityTypeConfiguration<Category>
+    public class CategoryConfiguration : IEntityTypeConfiguration<Categories>
     {
-        public void Configure(EntityTypeBuilder<Category> builder)
+        public void Configure(EntityTypeBuilder<Categories> builder)
         {
             builder.HasKey(c => c.Id);
 
